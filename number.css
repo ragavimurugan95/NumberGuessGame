@@ -1,0 +1,62 @@
+body{
+    margin:0;
+    padding:0;
+    text-align: center;
+    background-color:white;
+}
+#rules{
+    text-align: start;
+    color:rgb(218, 34, 193);
+}
+.container{
+    margin:100px auto;
+    background-color: black;
+    width:600px;
+    height:450px;
+    padding:20px;
+    color:rgb(26, 13, 216);
+}
+.point li{
+    text-align:start;
+    color: azure;
+}
+button{
+    color:black;
+    background-color:rgb(107, 202, 240);
+    cursor:pointer;
+    border-radius:20%;
+    padding:6px;
+    margin: 25px;
+}
+#guess{
+    padding:5px;
+}
+button:hover{
+background-color:rgb(17, 233, 17);
+}
+#message{
+    font-size: small;
+}
+#attempts{
+    color:yellow;
+}
+.success{
+    color:black;
+    margin:0;
+    padding:50px;
+    font:bolder;
+    font-size:xx-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.a{
+    font-size:x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:green;
+}
+.b{
+    font-size:large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:red;
+}
+
+

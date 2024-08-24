@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Random Number</title>
+    <link rel="stylesheet" href="number.css">
+     <center><h1>GAME</h1></center>
+     <center><h1> Number Generator</h1></center>
+</head>
+<body>
+    <div class="container">
+            <h1>Number Guessing Application</h1>
+             <h3 id="rules">Rules:</h3>
+             <ul class="point">
+                <li><h4>Select a Number from 1 to 100.</h4></li>
+                <li><h4>Click on the Check button.</h4></li>
+                <li><h4>It will give you Hints to guess the number correctly.</h4></li>
+                <li><h4>Repeat the same steps until you find the number within 10 Attempts.</h4></li>
+             </ul>
+             <br>
+             <div class="guess">
+             <form action:"">
+                <label for="number"></label>
+                <input type="number" id="guess" placeholder=" Enter your guess" required>
+               </form>
+               <br>
+                <p id="message"></p><br>
+             <b><button id="check">Check</button></b>
+             <b><button id="reset">Reset</button></b>
+             </div>
+            </div>
+<script src="./number.js"></script>
+</body>
+</html>
